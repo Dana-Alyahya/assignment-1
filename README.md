@@ -14,7 +14,10 @@ It showcases my **About Me**, **Projects**, and **Contact** sections with a resp
 
 ---
 
-
+## 🛠️ Setup Instructions
+1. Download or clone this repository.
+2. Open `index.html` in any modern web browser.
+3. Resize the browser window to test responsiveness.
 
 ---
 
