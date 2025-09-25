@@ -14,13 +14,10 @@ It showcases my **About Me**, **Projects**, and **Contact** sections with a resp
 
 ---
 
-## 🛠️ Setup Instructions
-1. Download or clone this repository.
-2. Open `index.html` in any modern web browser.
-3. Resize the browser window to test responsiveness.
+
 
 ---
 
 ## 🤖 AI Usage Summary
-I used **ChatGPT (OpenAI GPT-5)** to help generate starter code, structure the project, and add responsive design.  
+I used **ChatGPT (OpenAI GPT 5)** to help generate starter code, structure the project, and add responsive design.  
 Full details are available in `docs/ai-usage-report.md`.
