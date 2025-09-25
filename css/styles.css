@@ -1,3 +1,4 @@
+/* Reset basic margins & choose font */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,6 +6,9 @@ body {
   line-height: 1.6;
 }
 
+/* =========================
+   HEADER STYLES
+========================= */
 header {
   text-align: center;
   /* background: #333333; */
@@ -12,7 +16,7 @@ header {
   color: rgb(255, 255, 255);
   padding: 1rem;
 }
-
+/* Navigation bar styles */
 nav {
   display: flex;
   justify-content: center;
@@ -27,12 +31,18 @@ nav a {
   font-weight: bold;
 }
 
+/* =========================
+   SECTIONS
+========================= */
 section {
   padding: 20px;
   max-width: 900px;
   margin: auto;
 }
 
+/* =========================
+   PROJECT GRID
+========================= */
 #projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -62,6 +72,8 @@ form input, form textarea {
   border: 1px solid #ccc;
 }
 
+
+/* Button style */
 button {
   background: #333;
   color: white;
@@ -71,20 +83,26 @@ button {
   border-radius: 5px;
 }
 
-/* Responsive Design */
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+
+/* Tablet adjustments */
 @media (max-width: 768px) {
   header h1 { font-size: 1.8rem; }
   section { padding: 15px; }
 }
 
+/* Mobile adjustments */
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
     align-items: center;
-    display: none;
+    display: none; /* Hide by default on mobile */
   }
   nav.show {
-    display: flex;
+    display: flex; /* Show when user clicks menu button */
   }
   #menu-btn { 
     display: block;

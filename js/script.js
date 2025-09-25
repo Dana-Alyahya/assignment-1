@@ -7,7 +7,7 @@ else message = "Good Evening!";
 
 alert(message);
 
-//menu button for phone
+// Get the menu button and navigation menu elements
 document.getElementById('menu-btn').addEventListener('click', () => {
   document.getElementById('nav-menu').classList.toggle('show');
 });
